@@ -1,0 +1,35 @@
+{
+  "name": "hash-web-react",
+  "version": "0.0.1",
+  "description": "App for social newtorks visualization",
+  "main": "app.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Labic/hash-web-react.git"
+  },
+  "keywords": [
+    "social-network",
+    "react"
+  ],
+  "author": "@bih-goncalves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Labic/hash-web-react/issues"
+  },
+  "homepage": "https://github.com/Labic/hash-web-react#readme",
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "material-ui": "^0.18.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1"
+  }
+}
