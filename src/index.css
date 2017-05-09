@@ -4,3 +4,20 @@ body {
   font-family: sans-serif;
   background-color: #F2F2F2;
 }
+.navbar-fixed-left {
+  width: 50px;
+  position: fixed;
+  border: none;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.navbar-fixed-left :hover,
+.navbar-fixed-left:focus {
+  color: #60E5BF;
+  background-color: #E4E4E4;
+}
