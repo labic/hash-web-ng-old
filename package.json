@@ -1,36 +1,25 @@
 {
-  "name": "hash-web-react",
-  "version": "0.0.1",
-  "description": "App for social newtorks visualization",
-  "main": "app.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Labic/hash-web-react.git"
-  },
-  "keywords": [
-    "social-network",
-    "react"
-  ],
-  "author": "@bih-goncalves",
+  "name": "angular-scripts",
+  "version": "1.2.3",
+  "description": "Simple AngularJS Boilerplate to kick start your new project with SASS support and Gulp watch/build tasks",
+  "author": "Semianchuk Vitalii",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Labic/hash-web-react/issues"
-  },
-  "homepage": "https://github.com/Labic/hash-web-react#readme",
-  "devDependencies": {
-    "react-scripts": "0.9.5"
-  },
   "dependencies": {
-    "material-ui": "^0.18.0",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-material-navbar": "^1.1.1",
-    "react-tap-event-plugin": "^2.0.1"
+    "angular": "^1.6.4",
+    "angular-animate": "^1.5.8",
+    "angular-ui-router": "^0.3.2",
+    "body-parser": "^1.17.1",
+    "chalk": "*",
+    "cross-spawn": "*",
+    "express": "^4.15.2",
+    "fs-extra": "*",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.1.2",
+    "path": "*",
+    "path-exists": "*"
   }
 }
