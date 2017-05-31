@@ -102,3 +102,25 @@ button, #lupa {
   background: white;
   color: black;
 }
+
+#notNovas, #outCont {
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 24.2%;
+}
+
+#notNovas img, #outCont img {
+  max-width: 220px;
+  max-height: 176.1px;
+  width: auto;
+  height: auto;
+}
+
+.bloco {
+  max-width: 17%;
+  max-height: 40%;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  margin-right: 2%;
+}

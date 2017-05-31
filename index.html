@@ -17,10 +17,10 @@
   <!-- Controllers -->
 
   <script src="src/controller/menuController.js"></script>
-
+  <script src="src/controller/mainController.js"></script>
   <!-- Directives -->
   <script src="src/directives/searching.js"></script>
-
+  <script src="src/directives/noticias.js"></script>
 
 </head>
 
@@ -89,8 +89,25 @@
         <img ng-src="{{item.coverAtv}}"></button>
       </div>
 
-      <!--  notícias  -->
-      
+      <!--  blocos de notícias novas  -->
+      <p></p>
+      <div id="notNovas" ng-controller="mainController" class="container">
+        <div ng-repeat="nov in novidades">
+          <noticias info=nov class="bloco"></noticias>
+        </div>
+      </div>
+
+      <hr noshade style="width:100%; background-color: #D6D6D6; height: 2px;" >
+      <!--  blocos de outros conteúdos  -->
+      <div id="outCont" ng-controller="mainController" class="container">
+        <div ng-repeat="cont in outros">
+          <noticias info=cont class="bloco"></noticias>
+        </div>
+      </div>
+      <!--  footer  -->
+      <div id="footer">
+        
+      </div>
     </div>
   </div>
       

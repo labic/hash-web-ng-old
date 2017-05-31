@@ -1,6 +1,3 @@
-/**
- * Created by semianchuk on 08.10.16.
- */
 angular.module('angularApp')
     .controller('menuController', [ '$scope',  function ($scope) {
      $scope.news = 2;
