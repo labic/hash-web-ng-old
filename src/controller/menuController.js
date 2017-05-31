@@ -165,17 +165,17 @@ angular.module('angularApp')
     $scope.mSupE = [ 
       { 
         id: 'iconRead', 
-        link: '#', 
+        onclick: '#', 
         coverAtv: '/public/icons/icon7.PNG'
       },
       { 
         id: 'iconRef', 
-        link: '#', 
+        onclick: '#', 
         coverAtv: '/public/icons/icon6.PNG' 
       }, 
       { 
         id: 'iconNext', 
-        link: '#', 
+        onclick: '#', 
         coverAtv: '/public/icons/icon5.PNG'
       }, 
     ];
