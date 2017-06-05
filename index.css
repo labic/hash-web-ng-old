@@ -117,3 +117,13 @@ button, #lupa {
   margin-right: 2.1%;
   margin-bottom: 2%;
 }
+
+.bloco input {
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0;
+  border:1px solid #D6D6D6;
+  color: #929497;
+  margin-right: 2px;
+}
