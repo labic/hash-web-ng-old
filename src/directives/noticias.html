@@ -1,4 +1,4 @@
-<img class="icon" ng-src="{{ info.icon }}"> 
-<h4 class="title">{{ info.title }}</h4> 
-<p>{{ info.descricao }}</p> 
-<input type="button" value="{{ tag }}" ng-repeat = "tag in info.tags" disabled>
+<h7>{{info.dateCreated}}</h7>
+<a href="{{info.url}}"><img class="icon" ng-src="{{ info.image }}"> 
+<p>{{ info.description }}</p></a> 
+<input type="button" value="{{ tag }}" ng-repeat = "tag in info.keywords" disabled>
