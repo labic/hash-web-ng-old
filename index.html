@@ -35,7 +35,7 @@
 
   <!--  menu lateral  -->
   <div class="navbar-fixed-left" ng-controller="menuController">
-    <p class="news" ng-click="plusOne($index)"> {{news}}</p> 
+    <!-----p class="news" ng-click="plusOne($index)"> {{news}}</p!--> 
     <div ng-repeat="item in mLat"> 
       <div ng-init="imgsrc=item.coverDes" ng-mouseover="imgsrc=item.coverAtv"
       ng-mouseout="imgsrc=item.coverDes">
@@ -94,16 +94,23 @@
       <p></p>
       <div id="notNovas" ng-controller="gridController">
         <div ng-repeat="nov in novidades">
-          <noticias info=nov class="bloco"></noticias>
+        <div ng-if="$index % 3 == 0" class="clearfix"></div>
+          <noticias info=nov class="col-md-4"></noticias>
         </div>
       </div>
 
       <hr noshade style="width:100%; background-color: #D6D6D6; height: 2px;" >
       <!--  blocos de outros conteúdos  -->
       <div id="outCont" ng-controller="gridController">
-        <div ng-repeat="cont in outros">
-          <noticias info=cont class="bloco"></noticias>
-        </div>
+       <md-grid-list cols="4" rowHeight="100px">
+  <md-grid-tile
+      *ngFor="let tile of tiles"
+      [colspan]="tile.cols"
+      [rowspan]="tile.rows"
+      [style.background]="tile.color">
+    {{tile.text}}
+  </md-grid-tile>
+</md-grid-list>
       </div>
       <!--  footer  -->
       <div id="footer">

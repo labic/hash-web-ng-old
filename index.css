@@ -2,6 +2,7 @@ html,body {
   font-family: "Open Sans";
   background-color: #F2F2F2;
   border: none;
+  width: 100%;
 }
 
 #conteudo {
@@ -103,22 +104,21 @@ button, #lupa {
   color: black;
 }
 
-#notNovas img, #outCont img {
-  max-width: 220px;
-  max-height: 176.1px;
+#notNovas img {
+  max-width: 100%;
+  max-height: 41%;
   width: auto;
   height: auto;
 }
 
-.bloco {
-  max-width: 220px;
-  max-height: 38%;
+.col-md-4 {
+  width: 31%;
+  height: 40%;
   float: left;
-  margin-right: 2.1%;
   margin-bottom: 2%;
 }
 
-.bloco input {
+.col-md-4 input {
   background-color: transparent;
   border-radius: 5px;
   outline: none;
